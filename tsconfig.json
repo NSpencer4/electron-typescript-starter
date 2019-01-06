@@ -1,0 +1,17 @@
+{ 
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "out-tsc",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+  },
+  "exclude": [
+      "node_modules",
+      "src/renderer"
+  ]
+}
