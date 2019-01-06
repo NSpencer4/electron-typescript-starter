@@ -1,17 +1,38 @@
 { 
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "target": "es2015",
     "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": ["node"],
     "sourceMap": true,
-    "outDir": "out-tsc",
+    "outDir": "./build",
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": false,
+    "declaration": false,
     "moduleResolution": "node",
+    "pretty": true,
+    "newLine": "LF",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "jsx": "preserve"
   },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "lib": [
+    "es2017",
+    "dom"
+  ],
   "exclude": [
-      "node_modules",
+    "./node_modules",
       "src/renderer"
   ]
 }

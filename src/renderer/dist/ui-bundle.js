@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nlet NAME = 'TARUN LALWANI';\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"init\", function() { return init; });\n/* harmony import */ var _common_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../common/common */ \"./src/common/common.ts\");\n\nfunction init() {\n    document.write(`<h1>The name is ${_common_common__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}</h1>`);\n}\n// $(document).ready(() => {\nconsole.log('page is loaded and ready');\ninit();\n// });\n\n\n//# sourceURL=webpack:///./src/renderer/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"init\", function() { return init; });\n/* harmony import */ var _common_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../common/common */ \"./src/common/common.ts\");\n\nfunction init() {\n    document.write(`<h1>The name is ${_common_common__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}</h1>`);\n}\n$(document).ready(() => {\n    console.log('page is loaded and ready');\n    init();\n});\n\n\n//# sourceURL=webpack:///./src/renderer/index.ts?");
 
 /***/ })
 

@@ -1,4 +1,6 @@
-##  An Electron starter app with TypeScript.
+##  A minimalistic Electron quickstart-app with TypeScripted Three.js for WebGL desktop application fun.
 
-Install dependencies with `npm install`
-Start with `npm start`
+Clone and start with `$ npm start`.
+npm install -g electron
+npm install -g webpack-cli
+npm install -g webpack-dev-server

@@ -1,5 +1,6 @@
 
-# This is probably bloated.. TODO: remove non-necessary ignores
+# Created by https://www.gitignore.io/api/node,visualstudiocode
+
 ### Node ###
 # Logs
 logs
